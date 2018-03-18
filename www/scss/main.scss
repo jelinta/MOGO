@@ -1,0 +1,1373 @@
+$main_font: 'Montserrat', sans-serif;
+$slogan_font: 'Kaushan Script', cursive;
+$text_font: 'Roboto', sans-serif;
+$main_font_size: 14px;
+$background-color: #fff;
+$text_color_white: #fff;
+$text_color_black: #000;
+$text_color_grey: #999;
+
+
+    
+    body {
+        background-color: $background-color;
+        font-size: $main_font_size;
+        font-family: $main_font;
+    }
+    
+    ul, html, body {
+        margin: 0;
+    }
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+    
+    li {
+        list-style-type: none;
+     }
+    
+    .main-header {
+        position: relative;
+        font-family: $main_font;
+        background: url("img/header-bg.jpg") no-repeat center top;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        
+    }
+        
+    .logo {
+        display: block;
+        position: absolute;
+        top: 35px;
+        left: 360px/1920px*100%;
+        background-repeat: no-repeat;
+            
+        }
+        
+    .main-nav {
+        padding-top: 35px;
+        padding-left: 940px/1920px*100%;
+        padding-bottom: 165px;
+        
+     li {
+        display: inline-block;
+        padding-right: 55px/1920px*100%;
+        }
+        
+     a {
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+         
+        }    
+    } 
+
+    
+    .hover:hover {
+        color: #fce38a;
+    }
+
+
+    input[type=checkbox]{
+    display: none;
+    }
+
+    label {
+    visibility: hidden;
+    }
+
+
+@media screen and (max-width: 1024px) {
+    
+    label {
+        visibility: visible;
+        cursor: pointer;
+    }
+    
+    ul {
+        display: none;
+}
+    
+    input[type=checkbox]{
+        display: none;
+    }
+    
+    input[type=checkbox]:checked ~ ul {
+        display: block;
+    }
+    
+    li {
+        display: block !important; 
+        margin-left: -50px;
+    }
+    
+    .shop,
+    .search {
+        display: none !important;
+    }
+    
+    
+}
+
+    .slogan {
+        text-align: center;
+        
+        h2 {
+            margin: 0;
+            font-family: $slogan_font;
+            font-size: 5em;
+            color: #fff;
+            padding-bottom: 64px;
+        }
+        
+        h1 {
+            margin: 0;
+            font-family: $main_font;
+            font-size: 10em;
+            text-transform: uppercase;
+            color: #fff;
+            line-height: 140px;
+            padding-bottom: 73px;
+        }
+        
+        
+    @media screen and (max-width: 1024px) {
+        h2 {
+            font-size: 3em;
+        }
+        
+        h1 {
+            font-size: 7em;
+        }
+    
+    }
+        
+    @media screen and (max-width: 768px) {
+        h2 {
+            font-size: 3em;
+        }
+        
+        h1 {
+            font-size: 5em;
+            padding: 0 10px;
+        }
+    
+        }
+
+    }
+
+    .line {
+        width: 60px;
+        height: 3px;
+        background: #fff;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    
+    .learn-more {
+        display: block;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: auto;
+        text-align: center;
+        color: #fff;
+        padding: 12px 30px;
+        border: 3px solid #fff;
+        max-width: 160px;
+        margin-bottom: 157px;
+        }
+    
+    .not-main {
+        width: 1212/1920*100%;
+        margin: 0 auto;
+        padding-bottom: 25px;
+        margin-bottom: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        li {
+            list-style: none; 
+            margin-right: 200/1212*100%;
+            position: relative;
+            flex-basis: 80px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 16px
+        }
+        
+        a .dg {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    
+        li:before {
+            content: '';
+            position: absolute;
+            top: -25px;
+            left: 0;
+            width: 240px;
+            height: 3px;
+            background: #fff;
+        }  
+        
+        
+    }
+     
+    .about-us{
+        margin-bottom: 110px;
+        text-align: center;
+        
+        h2 {
+            font-family: $slogan_font; 
+            font-size: 24px;
+            fomy-style: italic;
+            font-weight: 100;
+        }
+        
+        h1 {
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+         
+        p {
+            font-family: $text_font;
+            font-size: 15px;
+            line-height: 24px;
+            color: #999;
+        }
+        
+        .line {
+            background: red;
+        }
+    }
+    
+    
+    .content-wrapper {
+        max-width: 950/1920*100%;
+        margin: 0 auto;
+    }
+    
+    .icons {
+        width: 1210/1920*100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        .icon {
+            background-color: #999;
+            align-content: center;
+            height: 259px;
+            margin: 10px 0;
+            flex-basis: 380px;
+            min-width: 380px;
+            
+        }
+        
+        .icon1 {
+            background-image: url("Z:/home/mogo/www/img/icon-1.jpg");
+            background-repeat: no-repeat;
+    
+        }
+        
+        .icon2 {
+            background-image: url("Z:/home/mogo/www/img/icon-2.jpg");
+            background-repeat: no-repeat;
+            background-position: 0 -150px;
+        }
+        
+        .icon3 {
+            background-image: url("Z:/home/mogo/www/img/icon-3.jpg");
+            background-repeat: no-repeat;
+        }
+        
+        
+        .icon:hover{
+            background-image: url("Z:/home/mogo/www/img/icon-hover.png");
+            opacity: 0.1;
+        }
+            
+    }
+//Переверстать с инлайн блоками?
+    .statistics {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 110px;
+        text-align: center;
+
+    
+        .colm {
+            background-color: #95e1d3;
+            margin-left: 1px;
+            padding-left: 30px;
+            padding-right: 30px;
+            min-width: 200px;
+            margin-bottom: 5px;
+        }
+        
+        .colm-empty {
+            flex-grow: 1;
+        }
+        
+        .numeral {
+            font-size: 72px;
+            font-weight: bold;
+            color: #fff;
+        }
+        
+        .description {
+            font-size: 14px;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+        }
+        
+        
+      @media screen and (max-width:1440px) {
+            .colm-empty {
+                visibility: hidden;
+            }
+        } 
+}
+//Переверстать с инлайн блоками?
+
+    .services-wrapper {
+        max-width: 1200px/1920px*100%;
+        margin: 0 auto;
+    }
+
+    .services {
+        text-align: center;
+        margin-bottom: 120px;
+    
+         h2 {
+            font-family: $slogan_font; 
+            font-size: 24px;
+            fomy-style: italic;
+            font-weight: 100;
+        }
+        
+            h1 {
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        
+         .line {
+            width: 60px;
+            height: 3px;
+            background: #f38181;
+            margin: auto;
+            margin-bottom: 65px;
+    }
+    
+}
+
+ .we-use {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    text-align: left;
+    background-image: url("Z:/home/mogo/www/img/big-line.png");
+    background-repeat: no-repeat;
+    background-position: 0 35%;
+      
+    .service {
+        flex-basis: 300px;
+        height: 100px;
+        margin-bottom: 100px; 
+        position: relative;
+    }
+    
+    .service:before {
+        content: "";
+        display: block;
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        top: 0;
+        left: -55px;
+        border: 1px solid green;
+    }
+    
+    .title {
+        font-family: $main_font;
+        font-weight: bold;
+        color: #333;
+        text-transform: uppercase;
+    }
+    
+    .description {
+        color: #999;
+        font-family: $text_font;
+        font-size: 15p;
+    }
+        
+}
+ 
+
+.unique-design {
+    padding-top: 105px;
+    text-align: center;
+    background-color: #d9d9d9;
+    background-image: url("Z:/home/mogo/www/img/fog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 850px;
+    min-width: 300px;
+    margin-bottom: 112px;
+    
+          h2 {
+            font-family: $slogan_font; 
+            font-size: 24px;
+            fomy-style: italic;
+            font-weight: 100;
+              
+        }
+        
+            h1 {
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+       
+        .line {
+            width: 60px;
+            height: 3px;
+            background: #f38181;
+            margin: auto;
+        }
+    
+   .tablet {
+       margin-top: 124px;
+    }
+ 
+    .mobile {
+       margin-top: -385px;
+       margin-left: 520px;
+     
+    }    
+}
+
+
+.what-we-do {
+    margin-bottom: 120px;
+    text-align: center;
+    
+    .what-we-do-wrapper {
+        max-width: 1200px/1920px*100%;
+        margin: 0 auto;
+    }
+    
+       h2 {
+            font-family: $slogan_font; 
+            font-size: 24px;
+            fomy-style: italic;
+            font-weight: 100;        
+        }
+        
+            h1 {
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+       
+        .line {
+            width: 60px;
+            height: 3px;
+            background: #f38181;
+            margin: auto;
+            margin-bottom: 45px;
+        }
+    
+         .description {
+            color: #999;
+            font-family: $text_font;
+            font-size: 15px;
+            margin-bottom: 90px; 
+            }
+}
+
+.presentation {
+    
+    .photo-gallery,
+    .our-services {
+        float: left;
+        margin-bottom: 32px;
+    }
+    
+    .our-services {
+        margin-left: 30px;    
+
+    }
+    
+    .photography,
+    .creativity,
+    .web-design {
+        display: block;
+        width: 500px;
+        margin-bottom: 10px;
+        border: 1px solid #e5e5e5;
+        text-align: left;
+        padding-top: 24px;
+        padding-bottom: 24px;
+//        padding-left: 60px;
+    }
+    
+    .photography {
+        background-image: url("Z:/home/mogo/www/img/picture.png");
+        background-repeat: no-repeat;
+        background-position: 15px center;   
+    } 
+   /* 
+    .photography:before {
+        content: " ";
+        display: table;
+        background: url("Z:/home/mogo/www/img/arrow-down.png");
+        width: 22px;
+        height: 12px;
+        position: absolute;
+        top: 0;
+        right: 0;   
+} */ 
+
+
+
+    .creativity {
+        background-image: url("Z:/home/mogo/www/img/equalizer.png");
+        background-repeat: no-repeat;
+        background-position: 15px center;
+    }
+    
+    .web-design {
+        background-image: url("Z:/home/mogo/www/img/circle.png");
+        background-repeat: no-repeat;
+        background-position: 15px center;
+    }
+    
+    
+    .description {
+       display: none;
+       border: 1px solid #e5e5e5;     
+    }
+    
+//    .visible {
+//        display: block;
+//    }
+    
+    .test {
+       position: relative;  
+    }
+    
+    .title {
+        display: block;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #333;
+        font-family: $main_font;
+        font-size: 14px;
+        font-weight: 500;
+        padding-left: 60px;
+    }
+    
+/*     .arrow {
+    background: url("Z:/home/mogo/www/img/arrow-down.png");
+    width: 22px;
+    height: 12px;
+    position: absolute;
+    top: 25px;
+    right: 18px;
+    }
+    
+    .arrow:active {
+        transform: rotate(180deg);
+    } */
+}
+
+.reviews {
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-bottom: 95px;
+    position: relative;
+    margin-bottom: 95px;
+
+
+.reviews-wrapper {
+    width: 1154px/1920px*100%;
+    margin: auto;
+}
+    
+    .slide1 {
+        background-image: url("Z:/home/mogo/www/img/say.png");  
+        background-repeat: no-repeat;
+        background-position: 11% center;
+        padding-bottom: 70px;
+        padding-top: 80px;
+    }
+    
+    .review1 {
+        width: 69%;
+        margin-left: 25%;
+        font-family: $text_font;
+        font-size: 24px;
+        font-style: italic;
+        color: #999;
+    }
+    
+//     .line {
+//        display: inline-block;
+//        width: 60px;
+//        height: 3px;
+//        background: #f38181;
+//        margin-left: 285px;
+//    }
+    
+    .author {
+        font-family: $slogan_font;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: normal;
+        display: inline;
+        margin-left: 350px;
+        line-height: 24px;
+        position: relative;
+        
+    }
+    
+    .author:before {
+        content: "";
+        width: 60px;
+        height: 3px;
+        background: #f38181;
+        position: absolute;
+        top: 17px;
+        right: 85px;
+    }
+    
+}
+
+.why-we-are {
+    margin-bottom: 120px;
+    text-align: center;
+    
+    .why-we-are-wrapper {
+        max-width: 1200px/1920px*100%;
+        margin: 0 auto;
+    }
+    
+       h2 {
+            font-family: $slogan_font; 
+            font-size: 24px;
+            fomy-style: italic;
+            font-weight: 100;        
+        }
+        
+            h1 {
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+       
+        .line {
+            width: 60px;
+            height: 3px;
+            background: #f38181;
+            margin: auto;
+            margin-bottom: 45px;
+        }
+    
+         .description {
+            color: #999;
+            font-family: $text_font;
+            font-size: 15px;
+            margin-bottom: 90px; 
+            }
+    
+    
+    .photo-team {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    
+    .member {
+        flex-basis: 380px;
+        min-width: 320px;
+    }
+    
+    .mich-img {
+        margin: 0;
+        background-color: #95e1d3;
+        background-image: url("Z:/home/mogo/www/img/developer.jpg");
+        background-repeat: no-repeat;
+        background-position: -220px 0;
+        height: 470px;
+    }
+    
+    .matt-img {
+        background-color: #95e1d3;
+        background-image: url("Z:/home/mogo/www/img/designer.jpg");
+        background-repeat: no-repeat;
+        background-position: -110px 0;
+        height: 470px;
+    }
+    
+    .cris-img {
+        background-color: #95e1d3;
+        background-image: url("Z:/home/mogo/www/img/brander.jpg");
+        background-repeat: no-repeat;
+        background-position: -110px -110px;
+        height: 470px;
+    }
+    
+    .name {
+        font-family: $main_font;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    
+    .job {
+        font-family: $text_font;
+        color: #d0d0d0;
+        font-style: italic;
+        font-style: italic;
+    }
+}
+
+.clients {
+    width: 100%;
+    height: 250px;
+    background-color: #d0d0d0;
+    background-image: url("Z:/home/mogo/www/img/customers.png");
+    background-position: center center;
+    background-repeat: no-repeat;  
+}
+
+.works {
+    text-align: center;
+    
+       h2 {
+            font-family: $slogan_font; 
+            font-size: 24px;
+            fomy-style: italic;
+            font-weight: 100;       
+        }
+    
+            h1 {
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+       
+        .line {
+            width: 60px;
+            height: 3px;
+            background: #f38181;
+            margin: auto;
+            margin-bottom: 45px;
+        }
+    
+         .description {
+            color: #999;
+            font-family: $text_font;
+            font-size: 15px;
+            margin-bottom: 90px; 
+            }
+    
+       .work-wrapper {
+        max-width: 1200px/1920px*100%;
+        max-width: 1200px/1920px*100%;
+        margin: 0 auto;
+    }
+    
+    
+    a {
+    float: left;
+    cursor: pointer;
+    min-width: 300px;
+    }
+    
+    .ex-1 {
+        background-image: url(Z:/home/mogo/www/img/man.jpg);
+        width: 25%;
+        height: 380px;
+        background-repeat: no-repeat;
+        background-position: center -340px;
+
+    }
+      .ex-2 {
+        background-image: url(Z:/home/mogo/www/img/roof.jpg);
+        width: 25%;
+        height: 380px;
+        background-repeat: no-repeat;
+        background-position: center -260px;
+
+    }
+    
+       .ex-3 {
+        background-image: url(Z:/home/mogo/www/img/med.jpg);
+        width: 25%;
+        height: 380px;
+        background-repeat: no-repeat;
+        background-position: center top;
+        z-index: 100;
+    
+    }
+    
+    .ex-4 {
+        background-image: url(Z:/home/mogo/www/img/outside.jpg);
+        background-repeat: no-repeat;
+        width: 25%;
+        height: 380px;
+        background-repeat: no-repeat;
+        background-position: center top;
+    
+    }
+    
+    .ex-5 {
+        background-image: url(Z:/home/mogo/www/img/bridge.jpg);
+        background-repeat: no-repeat;
+        width: 25%;
+        height: 380px;
+        background-repeat: no-repeat;
+    }
+    
+       .ex-6 {
+        background-image: url(Z:/home/mogo/www/img/outside-2.jpg);
+        background-repeat: no-repeat;
+        width: 25%;
+        height: 380px;
+        background-repeat: no-repeat;
+    }
+    
+        .ex-7 {
+        width: 25%;
+        height: 380px;
+        background-image: url(Z:/home/mogo/www/img/med.jpg);
+        background-position: center -380px;
+
+    }
+    
+       .ex-8 {
+        background-image: url(Z:/home/mogo/www/img/build.jpg);
+        background-repeat: no-repeat; 
+        width: 25%;
+        height: 380px;
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+}
+
+
+.clients {
+    width: 100%;
+    height: auto;
+    background-color: #d9d9d9;
+    background-image: url(Z:/home/mogo/www/img/clients-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-bottom: 110px;
+    padding-bottom: 130px;
+    text-align: center;
+    padding-top: 110px;
+    background-size: cover;
+    
+        h2 {
+            font-family: $slogan_font; 
+            font-size: 24px;
+            fomy-style: italic;
+            font-weight: 100;
+        }
+    
+        h1 {
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+    
+    
+        .line {
+            width: 60px;
+            height: 3px;
+            background: #f38181;
+            margin: auto;
+    }
+    
+       
+        .line-left {
+            width: 60px;
+            height: 3px;
+            background: #f38181;
+            position: absolute;
+    }
+    
+    
+        .description {
+            margin-top: 30px;
+      }   
+
+        .people-say {
+            padding-top: 80px;
+            width: 1120px/1920px*100%;
+            margin: auto;
+        }
+
+
+        .dix, 
+        .kastillo,
+        .karv,
+        .retrucci{
+           display: inline-block;
+            position: relative;
+            text-align: left;
+            width: 35%;
+            min-width: 350px;
+            margin-right: 215px;
+        }    
+    
+        .karv,
+        .retrucci {
+            margin: 0;
+    }
+
+        .dix-img {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: -120px;
+            background-image: url(Z:/home/mogo/www/img/nick-karv.jpg);
+            background-repeat: no-repeat;
+            background-position: 55% center;
+            width: 110px;
+            height: 110px;
+            text-align: center;
+            border-radius: 50%;
+        }
+    
+    
+    .mike-img {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: -120px;
+            background-image: url(Z:/home/mogo/www/img/mike.jpg);
+            background-repeat: no-repeat;
+            background-position: 25% 10%;
+            width: 110px;
+            height: 110px;
+            text-align: center;
+            border-radius: 50%;
+        }
+    
+        .name {
+            font-family: $main_font;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    
+    
+        .job {
+            font-family: $text_font;
+            color: #d4d4d4;
+            font-style: italic;
+            font-style: italic;
+        }
+    
+          .description {
+            font-family: $text_font;
+            font-size: 15px;
+            color: #d2d2d2;
+        }
+    
+    }
+
+
+
+.blog {
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 110px;
+    text-align: center;
+    margin-bottom: 110px;
+    
+     h2 {
+            font-family: $slogan_font; 
+            font-size: 24px;
+            fomy-style: italic;
+            font-weight: 100;
+        }
+    
+        h1 {
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+    
+    
+        .line {
+            width: 60px;
+            height: 3px;
+            background: #f38181;
+            margin: auto;
+            margin-bottom: 45px;
+    }
+    
+    .blog-wrapper {
+        width: 1200px/1920px*100%;
+        margin: auto;
+       
+    }
+    
+    
+    .article-set {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+    
+    .article {
+        flex-basis: 380px;
+        min-width: 320px; 
+        margin-left: 15px;
+    }
+    
+    .title-img {
+        width: 380px; 
+        height: 210px;
+        background-image: url(Z:/home/mogo/www/img/atrcl-img1.jpg);
+        background-position: 80% bottom;
+        position: relative;
+        text-align: center;
+    }
+    
+    .date {
+        width: 60px;
+        height: 70px;
+        background: #95e1d3;
+        position: absolute;
+        top: 60%;
+        left: -10px;
+    }
+    
+    
+    .article-title {
+        font-family: $main_font;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    
+    .article-description {
+        font-family: $text_font;
+        font-size: 15px;
+        color: #a8a8a8;
+    }
+    
+    .day {
+        font-style: $main_font;
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+        margin: 0;
+        padding-top: 5px;
+    }
+    
+    .mounth {
+       font-family: $text_font;
+        font-size: 14px;
+        font-style: italic;
+        color: #fff;
+        opacity: 0.7;
+        margin: 0;
+    }
+    
+    .shadow {
+        margin-top: 20px;
+        border: 1px solid #e5e5e5;
+        margin-bottom: 20px;
+    }
+    
+    .view,
+    .comments {
+        display: inline-block;
+    }
+    
+    p {
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+}
+
+
+.map {
+    height: 200px;
+    background-image: url(Z:/home/mogo/www/img/map.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding-bottom: 55px;
+    
+    .map-info {
+        padding-top: 55px;
+        text-align: center;
+    }
+    
+    .open-map {
+        display: block;
+        text-transform: uppercase;
+        color: #f38181;
+        text-decoration: none;
+        padding-top: 15px;
+        font-family: $main-font;
+        font-size: 22px;
+        font-weight: bold;
+    }
+       .line {
+        width: 60px;
+        height: 3px;
+        background: #f38181;
+        margin: auto;
+        margin-top: 20px;
+    }
+   
+}
+
+
+.footer {
+    background: #f8f8f8;
+    margin-top: -5px;
+    
+    
+.footer-wrapper {
+    max-width: 1200px/1920px*100%;
+    margin: 0 auto;
+    border: 1px solid red;
+    position: relative;
+}
+
+.footer-colm {
+    float: left;
+}
+    
+    .subscribe {
+        width: 467px/1200px*100%;
+        height: auto;
+        margin-right: 45px/1200px*100%;
+    }
+    
+        .logo {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: $main_font;
+        font-size: 46px;
+        font-weight: bold;
+        color: #ccc;
+    }
+    
+    .description {
+       font-size: 15px;
+       font-family: $text_font;
+       color: #b4b4b4;
+       margin-top: 75px;
+       margin-bottom: 50px;
+    }
+    
+    .counter {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .follower-counter {
+        margin-bottom: 18px;
+    }
+    
+    .line-grey {
+        height: 1px;
+        width: 100%;
+        background: #e5e5e5;
+        margin-bottom: 18px;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    
+    li {
+        display: inline-block;
+        margin-right: 16px;
+    }
+    
+    .facebook-icon {
+        background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+        background-position: 0 0;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+    }
+    
+    .twitter-icon {
+        background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+        background-position: 192px 0;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+    }
+    
+    
+    .instagram-icon {
+        background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+        background-position: 163px 0;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+    }
+    
+    .printerest-icon {
+        background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+        background-position: 131px 0;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+    }
+    
+    .google-icon {
+        background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+        background-position: 102px 0;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+    }
+    
+    .youtube-icon {
+        background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+        background-position: 73px 0;
+        width: 16px;
+        height: 16px;
+        display: inline-block;  
+    }
+    
+    .dribbble-icon {
+        background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+        background-position: 43px 0;
+        width: 16px;
+        height: 16px;
+        display: inline-block;  
+    }
+    
+    .tumblt-icon {
+        background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+        background-position: 15px 0;
+        width: 16px;
+        height: 16px;
+        display: inline-block;     
+    }
+    
+    .follow-us-text {
+        font-family: $text_font;
+        font-size: 15px;
+        font-style: italic;
+        color: #b4b4b4;
+        font-weight: 100;
+    }
+    
+    .email-input {
+        padding: 10px;
+        color: #e3e3e3 !important; 
+        font-family: $text_font;
+        font-size: 15px;
+        font-style: italic;
+        width: 230px/476px*100%;
+        min-width: 150px;
+        border: none; 
+        border: 1px solid #e7e7e7;
+    }
+    
+    .subscribe-btn {
+        margin-left: -5px;
+        border: none;
+        padding: 13px 34px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+        background: #95e1d3;
+    }  
+    
+    .blog {
+        width: 340px/1200px*100%;
+        height: auto;
+        margin-right: 85px/1200px*100%;
+        background: #f8f8f8;
+        line-height: 12px;
+        text-align: left;
+    } 
+    
+    .title-blog {
+        font-size: 14px;
+        font-weight: bold;
+    }
+      
+    .blog-post-img {
+        display: block;
+        float: left;
+        margin-right: 20px;
+        
+    }
+    
+    .blog-post-text {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 500;
+        color: #333;
+    }
+    
+    .blog-post-date {
+        display: block;
+        margin-top: 15px;
+        font-family: $text_font;
+        font-size: 13px;
+        font-weight: 100;
+        color: #ccc;
+        font-style: italic;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1012 @@
+body {
+  background-color: #fff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif; }
+
+ul, html, body {
+  margin: 0; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+li {
+  list-style-type: none; }
+
+.main-header {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  background: url("img/header-bg.jpg") no-repeat center top;
+  width: 100%;
+  height: auto;
+  background-size: cover; }
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 35px;
+  left: 18.75%;
+  background-repeat: no-repeat; }
+
+.main-nav {
+  padding-top: 35px;
+  padding-left: 48.95833%;
+  padding-bottom: 165px; }
+  .main-nav li {
+    display: inline-block;
+    padding-right: 2.86458%; }
+  .main-nav a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff; }
+
+.hover:hover {
+  color: #fce38a; }
+
+input[type=checkbox] {
+  display: none; }
+
+label {
+  visibility: hidden; }
+
+@media screen and (max-width: 1024px) {
+  label {
+    visibility: visible;
+    cursor: pointer; }
+
+  ul {
+    display: none; }
+
+  input[type=checkbox] {
+    display: none; }
+
+  input[type=checkbox]:checked ~ ul {
+    display: block; }
+
+  li {
+    display: block !important;
+    margin-left: -50px; }
+
+  .shop,
+  .search {
+    display: none !important; } }
+.slogan {
+  text-align: center; }
+  .slogan h2 {
+    margin: 0;
+    font-family: "Kaushan Script", cursive;
+    font-size: 5em;
+    color: #fff;
+    padding-bottom: 64px; }
+  .slogan h1 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10em;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 140px;
+    padding-bottom: 73px; }
+  @media screen and (max-width: 1024px) {
+    .slogan h2 {
+      font-size: 3em; }
+    .slogan h1 {
+      font-size: 7em; } }
+  @media screen and (max-width: 768px) {
+    .slogan h2 {
+      font-size: 3em; }
+    .slogan h1 {
+      font-size: 5em;
+      padding: 0 10px; } }
+
+.line {
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: auto;
+  margin-bottom: 50px; }
+
+.learn-more {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  padding: 12px 30px;
+  border: 3px solid #fff;
+  max-width: 160px;
+  margin-bottom: 157px; }
+
+.not-main {
+  width: 63.125%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  margin-bottom: 90px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+  .not-main li {
+    list-style: none;
+    margin-right: 16.50165%;
+    position: relative;
+    -webkit-flex-basis: 80px;
+        -ms-flex-preferred-size: 80px;
+            flex-basis: 80px; }
+  .not-main a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px; }
+  .not-main a .dg {
+    font-size: 18px;
+    font-weight: bold; }
+  .not-main li:before {
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 240px;
+    height: 3px;
+    background: #fff; }
+
+.about-us {
+  margin-bottom: 110px;
+  text-align: center; }
+  .about-us h2 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    fomy-style: italic;
+    font-weight: 100; }
+  .about-us h1 {
+    font-size: 30px;
+    text-transform: uppercase; }
+  .about-us p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999; }
+  .about-us .line {
+    background: red; }
+
+.content-wrapper {
+  max-width: 49.47917%;
+  margin: 0 auto; }
+
+.icons {
+  width: 63.02083%;
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .icons .icon {
+    background-color: #999;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+    height: 259px;
+    margin: 10px 0;
+    -webkit-flex-basis: 380px;
+        -ms-flex-preferred-size: 380px;
+            flex-basis: 380px;
+    min-width: 380px; }
+  .icons .icon1 {
+    background-image: url("Z:/home/mogo/www/img/icon-1.jpg");
+    background-repeat: no-repeat; }
+  .icons .icon2 {
+    background-image: url("Z:/home/mogo/www/img/icon-2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 -150px; }
+  .icons .icon3 {
+    background-image: url("Z:/home/mogo/www/img/icon-3.jpg");
+    background-repeat: no-repeat; }
+  .icons .icon:hover {
+    background-image: url("Z:/home/mogo/www/img/icon-hover.png");
+    opacity: 0.1; }
+
+.statistics {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin-bottom: 110px;
+  text-align: center; }
+  .statistics .colm {
+    background-color: #95e1d3;
+    margin-left: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-width: 200px;
+    margin-bottom: 5px; }
+  .statistics .colm-empty {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+  .statistics .numeral {
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff; }
+  .statistics .description {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase; }
+  @media screen and (max-width: 1440px) {
+    .statistics .colm-empty {
+      visibility: hidden; } }
+
+.services-wrapper {
+  max-width: 62.5%;
+  margin: 0 auto; }
+
+.services {
+  text-align: center;
+  margin-bottom: 120px; }
+  .services h2 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    fomy-style: italic;
+    font-weight: 100; }
+  .services h1 {
+    font-size: 30px;
+    text-transform: uppercase; }
+  .services .line {
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin: auto;
+    margin-bottom: 65px; }
+
+.we-use {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 120px;
+  text-align: left;
+  background-image: url("Z:/home/mogo/www/img/big-line.png");
+  background-repeat: no-repeat;
+  background-position: 0 35%; }
+  .we-use .service {
+    -webkit-flex-basis: 300px;
+        -ms-flex-preferred-size: 300px;
+            flex-basis: 300px;
+    height: 100px;
+    margin-bottom: 100px;
+    position: relative; }
+  .we-use .service:before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    left: -55px;
+    border: 1px solid green; }
+  .we-use .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase; }
+  .we-use .description {
+    color: #999;
+    font-family: "Roboto", sans-serif;
+    font-size: 15p; }
+
+.unique-design {
+  padding-top: 105px;
+  text-align: center;
+  background-color: #d9d9d9;
+  background-image: url("Z:/home/mogo/www/img/fog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 850px;
+  min-width: 300px;
+  margin-bottom: 112px; }
+  .unique-design h2 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    fomy-style: italic;
+    font-weight: 100; }
+  .unique-design h1 {
+    font-size: 30px;
+    text-transform: uppercase; }
+  .unique-design .line {
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin: auto; }
+  .unique-design .tablet {
+    margin-top: 124px; }
+  .unique-design .mobile {
+    margin-top: -385px;
+    margin-left: 520px; }
+
+.what-we-do {
+  margin-bottom: 120px;
+  text-align: center; }
+  .what-we-do .what-we-do-wrapper {
+    max-width: 62.5%;
+    margin: 0 auto; }
+  .what-we-do h2 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    fomy-style: italic;
+    font-weight: 100; }
+  .what-we-do h1 {
+    font-size: 30px;
+    text-transform: uppercase; }
+  .what-we-do .line {
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin: auto;
+    margin-bottom: 45px; }
+  .what-we-do .description {
+    color: #999;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-bottom: 90px; }
+
+.presentation {
+   /* 
+    .photography:before {
+        content: " ";
+        display: table;
+        background: url("Z:/home/mogo/www/img/arrow-down.png");
+        width: 22px;
+        height: 12px;
+        position: absolute;
+        top: 0;
+        right: 0;   
+} */
+  /*     .arrow {
+      background: url("Z:/home/mogo/www/img/arrow-down.png");
+      width: 22px;
+      height: 12px;
+      position: absolute;
+      top: 25px;
+      right: 18px;
+      }
+      
+      .arrow:active {
+          transform: rotate(180deg);
+      } */ }
+  .presentation .photo-gallery,
+  .presentation .our-services {
+    float: left;
+    margin-bottom: 32px; }
+  .presentation .our-services {
+    margin-left: 30px; }
+  .presentation .photography,
+  .presentation .creativity,
+  .presentation .web-design {
+    display: block;
+    width: 500px;
+    margin-bottom: 10px;
+    border: 1px solid #e5e5e5;
+    text-align: left;
+    padding-top: 24px;
+    padding-bottom: 24px; }
+  .presentation .photography {
+    background-image: url("Z:/home/mogo/www/img/picture.png");
+    background-repeat: no-repeat;
+    background-position: 15px center; }
+  .presentation .creativity {
+    background-image: url("Z:/home/mogo/www/img/equalizer.png");
+    background-repeat: no-repeat;
+    background-position: 15px center; }
+  .presentation .web-design {
+    background-image: url("Z:/home/mogo/www/img/circle.png");
+    background-repeat: no-repeat;
+    background-position: 15px center; }
+  .presentation .description {
+    display: none;
+    border: 1px solid #e5e5e5; }
+  .presentation .test {
+    position: relative; }
+  .presentation .title {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 60px; }
+
+.reviews {
+  width: 100%;
+  background-color: #f8f8f8;
+  margin-bottom: 95px;
+  position: relative;
+  margin-bottom: 95px; }
+  .reviews .reviews-wrapper {
+    width: 60.10417%;
+    margin: auto; }
+  .reviews .slide1 {
+    background-image: url("Z:/home/mogo/www/img/say.png");
+    background-repeat: no-repeat;
+    background-position: 11% center;
+    padding-bottom: 70px;
+    padding-top: 80px; }
+  .reviews .review1 {
+    width: 69%;
+    margin-left: 25%;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #999; }
+  .reviews .author {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: normal;
+    display: inline;
+    margin-left: 350px;
+    line-height: 24px;
+    position: relative; }
+  .reviews .author:before {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    position: absolute;
+    top: 17px;
+    right: 85px; }
+
+.why-we-are {
+  margin-bottom: 120px;
+  text-align: center; }
+  .why-we-are .why-we-are-wrapper {
+    max-width: 62.5%;
+    margin: 0 auto; }
+  .why-we-are h2 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    fomy-style: italic;
+    font-weight: 100; }
+  .why-we-are h1 {
+    font-size: 30px;
+    text-transform: uppercase; }
+  .why-we-are .line {
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin: auto;
+    margin-bottom: 45px; }
+  .why-we-are .description {
+    color: #999;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-bottom: 90px; }
+  .why-we-are .photo-team {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+  .why-we-are .member {
+    -webkit-flex-basis: 380px;
+        -ms-flex-preferred-size: 380px;
+            flex-basis: 380px;
+    min-width: 320px; }
+  .why-we-are .mich-img {
+    margin: 0;
+    background-color: #95e1d3;
+    background-image: url("Z:/home/mogo/www/img/developer.jpg");
+    background-repeat: no-repeat;
+    background-position: -220px 0;
+    height: 470px; }
+  .why-we-are .matt-img {
+    background-color: #95e1d3;
+    background-image: url("Z:/home/mogo/www/img/designer.jpg");
+    background-repeat: no-repeat;
+    background-position: -110px 0;
+    height: 470px; }
+  .why-we-are .cris-img {
+    background-color: #95e1d3;
+    background-image: url("Z:/home/mogo/www/img/brander.jpg");
+    background-repeat: no-repeat;
+    background-position: -110px -110px;
+    height: 470px; }
+  .why-we-are .name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500; }
+  .why-we-are .job {
+    font-family: "Roboto", sans-serif;
+    color: #d0d0d0;
+    font-style: italic;
+    font-style: italic; }
+
+.clients {
+  width: 100%;
+  height: 250px;
+  background-color: #d0d0d0;
+  background-image: url("Z:/home/mogo/www/img/customers.png");
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.works {
+  text-align: center; }
+  .works h2 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    fomy-style: italic;
+    font-weight: 100; }
+  .works h1 {
+    font-size: 30px;
+    text-transform: uppercase; }
+  .works .line {
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin: auto;
+    margin-bottom: 45px; }
+  .works .description {
+    color: #999;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-bottom: 90px; }
+  .works .work-wrapper {
+    max-width: 62.5%;
+    max-width: 62.5%;
+    margin: 0 auto; }
+  .works a {
+    float: left;
+    cursor: pointer;
+    min-width: 300px; }
+  .works .ex-1 {
+    background-image: url(Z:/home/mogo/www/img/man.jpg);
+    width: 25%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-position: center -340px; }
+  .works .ex-2 {
+    background-image: url(Z:/home/mogo/www/img/roof.jpg);
+    width: 25%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-position: center -260px; }
+  .works .ex-3 {
+    background-image: url(Z:/home/mogo/www/img/med.jpg);
+    width: 25%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    z-index: 100; }
+  .works .ex-4 {
+    background-image: url(Z:/home/mogo/www/img/outside.jpg);
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-position: center top; }
+  .works .ex-5 {
+    background-image: url(Z:/home/mogo/www/img/bridge.jpg);
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 380px;
+    background-repeat: no-repeat; }
+  .works .ex-6 {
+    background-image: url(Z:/home/mogo/www/img/outside-2.jpg);
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 380px;
+    background-repeat: no-repeat; }
+  .works .ex-7 {
+    width: 25%;
+    height: 380px;
+    background-image: url(Z:/home/mogo/www/img/med.jpg);
+    background-position: center -380px; }
+  .works .ex-8 {
+    background-image: url(Z:/home/mogo/www/img/build.jpg);
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 380px;
+    background-repeat: no-repeat;
+    background-position: left center; }
+
+.clients {
+  width: 100%;
+  height: auto;
+  background-color: #d9d9d9;
+  background-image: url(Z:/home/mogo/www/img/clients-bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin-bottom: 110px;
+  padding-bottom: 130px;
+  text-align: center;
+  padding-top: 110px;
+  background-size: cover; }
+  .clients h2 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    fomy-style: italic;
+    font-weight: 100; }
+  .clients h1 {
+    font-size: 30px;
+    text-transform: uppercase; }
+  .clients .line {
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin: auto; }
+  .clients .line-left {
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    position: absolute; }
+  .clients .description {
+    margin-top: 30px; }
+  .clients .people-say {
+    padding-top: 80px;
+    width: 58.33333%;
+    margin: auto; }
+  .clients .dix,
+  .clients .kastillo,
+  .clients .karv,
+  .clients .retrucci {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 35%;
+    min-width: 350px;
+    margin-right: 215px; }
+  .clients .karv,
+  .clients .retrucci {
+    margin: 0; }
+  .clients .dix-img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -120px;
+    background-image: url(Z:/home/mogo/www/img/nick-karv.jpg);
+    background-repeat: no-repeat;
+    background-position: 55% center;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    border-radius: 50%; }
+  .clients .mike-img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -120px;
+    background-image: url(Z:/home/mogo/www/img/mike.jpg);
+    background-repeat: no-repeat;
+    background-position: 25% 10%;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    border-radius: 50%; }
+  .clients .name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600; }
+  .clients .job {
+    font-family: "Roboto", sans-serif;
+    color: #d4d4d4;
+    font-style: italic;
+    font-style: italic; }
+  .clients .description {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #d2d2d2; }
+
+.blog {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 110px;
+  text-align: center;
+  margin-bottom: 110px; }
+  .blog h2 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 24px;
+    fomy-style: italic;
+    font-weight: 100; }
+  .blog h1 {
+    font-size: 30px;
+    text-transform: uppercase; }
+  .blog .line {
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin: auto;
+    margin-bottom: 45px; }
+  .blog .blog-wrapper {
+    width: 62.5%;
+    margin: auto; }
+  .blog .article-set {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    text-align: left; }
+  .blog .article {
+    -webkit-flex-basis: 380px;
+        -ms-flex-preferred-size: 380px;
+            flex-basis: 380px;
+    min-width: 320px;
+    margin-left: 15px; }
+  .blog .title-img {
+    width: 380px;
+    height: 210px;
+    background-image: url(Z:/home/mogo/www/img/atrcl-img1.jpg);
+    background-position: 80% bottom;
+    position: relative;
+    text-align: center; }
+  .blog .date {
+    width: 60px;
+    height: 70px;
+    background: #95e1d3;
+    position: absolute;
+    top: 60%;
+    left: -10px; }
+  .blog .article-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .blog .article-description {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #a8a8a8; }
+  .blog .day {
+    font-style: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    padding-top: 5px; }
+  .blog .mounth {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #fff;
+    opacity: 0.7;
+    margin: 0; }
+  .blog .shadow {
+    margin-top: 20px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px; }
+  .blog .view,
+  .blog .comments {
+    display: inline-block; }
+  .blog p {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 25px; }
+
+.map {
+  height: 200px;
+  background-image: url(Z:/home/mogo/www/img/map.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding-bottom: 55px; }
+  .map .map-info {
+    padding-top: 55px;
+    text-align: center; }
+  .map .open-map {
+    display: block;
+    text-transform: uppercase;
+    color: #f38181;
+    text-decoration: none;
+    padding-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold; }
+  .map .line {
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin: auto;
+    margin-top: 20px; }
+
+.footer {
+  background: #f8f8f8;
+  margin-top: -5px; }
+  .footer .footer-wrapper {
+    max-width: 62.5%;
+    margin: 0 auto;
+    border: 1px solid red;
+    position: relative; }
+  .footer .footer-colm {
+    float: left; }
+  .footer .subscribe {
+    width: 38.91667%;
+    height: auto;
+    margin-right: 3.75%; }
+  .footer .logo {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    color: #ccc; }
+  .footer .description {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: #b4b4b4;
+    margin-top: 75px;
+    margin-bottom: 50px; }
+  .footer .counter {
+    font-weight: bold;
+    font-size: 18px; }
+  .footer .follower-counter {
+    margin-bottom: 18px; }
+  .footer .line-grey {
+    height: 1px;
+    width: 100%;
+    background: #e5e5e5;
+    margin-bottom: 18px; }
+  .footer ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px; }
+  .footer li {
+    display: inline-block;
+    margin-right: 16px; }
+  .footer .facebook-icon {
+    background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+    background-position: 0 0;
+    width: 16px;
+    height: 16px;
+    display: inline-block; }
+  .footer .twitter-icon {
+    background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+    background-position: 192px 0;
+    width: 16px;
+    height: 16px;
+    display: inline-block; }
+  .footer .instagram-icon {
+    background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+    background-position: 163px 0;
+    width: 16px;
+    height: 16px;
+    display: inline-block; }
+  .footer .printerest-icon {
+    background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+    background-position: 131px 0;
+    width: 16px;
+    height: 16px;
+    display: inline-block; }
+  .footer .google-icon {
+    background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+    background-position: 102px 0;
+    width: 16px;
+    height: 16px;
+    display: inline-block; }
+  .footer .youtube-icon {
+    background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+    background-position: 73px 0;
+    width: 16px;
+    height: 16px;
+    display: inline-block; }
+  .footer .dribbble-icon {
+    background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+    background-position: 43px 0;
+    width: 16px;
+    height: 16px;
+    display: inline-block; }
+  .footer .tumblt-icon {
+    background-image: url(Z:/home/mogo/www/img/footer-sprite.png);
+    background-position: 15px 0;
+    width: 16px;
+    height: 16px;
+    display: inline-block; }
+  .footer .follow-us-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: #b4b4b4;
+    font-weight: 100; }
+  .footer .email-input {
+    padding: 10px;
+    color: #e3e3e3 !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    width: 48.31933%;
+    min-width: 150px;
+    border: none;
+    border: 1px solid #e7e7e7; }
+  .footer .subscribe-btn {
+    margin-left: -5px;
+    border: none;
+    padding: 13px 34px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background: #95e1d3; }
+  .footer .blog {
+    width: 28.33333%;
+    height: auto;
+    margin-right: 7.08333%;
+    background: #f8f8f8;
+    line-height: 12px;
+    text-align: left; }
+  .footer .title-blog {
+    font-size: 14px;
+    font-weight: bold; }
+  .footer .blog-post-img {
+    display: block;
+    float: left;
+    margin-right: 20px; }
+  .footer .blog-post-text {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color: #333; }
+  .footer .blog-post-date {
+    display: block;
+    margin-top: 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    color: #ccc;
+    font-style: italic; }
+
+/*# sourceMappingURL=style.css.map */

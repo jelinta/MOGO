@@ -1,0 +1,53 @@
+/*
+Error: Invalid CSS after "...   margin-left:": expected expression (e.g. 1px, bold), was "}"
+        on line 846 of Z:\home\mogo\www\scss\main.scss
+
+841:     .kastillo,
+842:     .retrucci {
+843:         float: left; 
+844:         width: 45%;
+845:         margin-left: 
+846:     }
+847:     
+848: }
+
+Backtrace:
+Z:\home\mogo\www\scss\main.scss:846
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/lexer.rb:220:in `expected!'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:573:in `assert_expr'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:62:in `parse'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1027:in `sass_script'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:880:in `value!'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:753:in `block in try_declaration'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `call'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1141:in `rethrow'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:766:in `try_declaration'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:696:in `declaration_or_ruleset'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+G:/Install/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+G:/Install/Koala/bin/sass:18:in `load'
+G:/Install/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...   margin-left:\": expected expression (e.g. 1px, bold), was \"}\"\A         on line 846 of Z:\home\mogo\www\scss\main.scss\A \A 841:     .kastillo,\A 842:     .retrucci {\A 843:         float: left; \A 844:         width: 45%;\A 845:         margin-left: \A 846:     }\A 847:     \A 848: }"; }
