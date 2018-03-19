@@ -1,7 +1,13 @@
+html {
+  overflow-x: hidden; }
+
 body {
   background-color: #fff;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; }
 
 ul, html, body {
   margin: 0; }
@@ -123,25 +129,19 @@ label {
   width: 63.125%;
   margin: 0 auto;
   padding-bottom: 25px;
-  margin-bottom: 90px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
+  margin-bottom: 90px
+  /*      display: flex;
           flex-wrap: wrap;
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around; }
+          justify-content: space-around; */ }
   .not-main li {
+    display: inline-block;
     list-style: none;
-    margin-right: 16.50165%;
-    position: relative;
-    -webkit-flex-basis: 80px;
-        -ms-flex-preferred-size: 80px;
-            flex-basis: 80px; }
+    margin-right: 18.15182%
+    /* flex-basis: 80px; */ }
+  .not-main li:last-child {
+    margin-right: 0; }
   .not-main a {
+    display: block;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -149,14 +149,6 @@ label {
   .not-main a .dg {
     font-size: 18px;
     font-weight: bold; }
-  .not-main li:before {
-    content: '';
-    position: absolute;
-    top: -25px;
-    left: 0;
-    width: 240px;
-    height: 3px;
-    background: #fff; }
 
 .about-us {
   margin-bottom: 110px;
@@ -307,10 +299,7 @@ label {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 120px;
-  text-align: left;
-  background-image: url("Z:/home/mogo/www/img/big-line.png");
-  background-repeat: no-repeat;
-  background-position: 0 35%; }
+  text-align: left; }
   .we-use .service {
     -webkit-flex-basis: 300px;
         -ms-flex-preferred-size: 300px;
@@ -326,7 +315,7 @@ label {
     position: absolute;
     top: 0;
     left: -55px;
-    border: 1px solid green; }
+    background-image: url("Z:/home/mogo/www/img/alarm.png"); }
   .we-use .title {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -439,12 +428,14 @@ label {
     background-position: 15px center; }
   .presentation .creativity {
     background-image: url("Z:/home/mogo/www/img/equalizer.png");
-    background-repeat: no-repeat;
-    background-position: 15px center; }
+    width: 28px;
+    height: 32px;
+    background-repeat: no-repeat; }
   .presentation .web-design {
     background-image: url("Z:/home/mogo/www/img/circle.png");
-    background-repeat: no-repeat;
-    background-position: 15px center; }
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat; }
   .presentation .description {
     display: none;
     border: 1px solid #e5e5e5; }
